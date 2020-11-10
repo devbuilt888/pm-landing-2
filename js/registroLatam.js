@@ -24,6 +24,9 @@
 
 
     //TWOBUTTONS
+    document.getElementById("twoOptions").style.display = "none";
+    document.getElementById("formTP").style.display = "none";
+
 
     document.getElementById("form1").addEventListener("click", selectForm);
 
