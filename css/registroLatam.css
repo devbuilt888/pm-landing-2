@@ -187,7 +187,8 @@ background-color:#112545;
 
 
 .header-bottom-top{
-	  background-image: linear-gradient(to right, rgba(255,0,0,0),#d9eaff);
+	background-color: rgba(230, 255, 255);
+	  background-image: linear-gradient(to right, rgba(255,0,0,0),rgba(230, 255, 255));
 
 }
 
