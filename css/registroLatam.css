@@ -1,0 +1,290 @@
+.grid { 
+padding-top:50px;
+	margin-top:50px;
+	padding-bottom:70px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  /* background-image: linear-gradient(to right, rgba(255,0,0,0),#185675); */
+  background-color: #3b5898;
+
+  }
+
+  
+  .informacionTP{
+  overflow:hidden;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+  background-color: rgb(238, 237, 237);
+  border: 2px solid rgb(77, 31, 150);
+  padding:20px;
+}
+
+.informacionTP div {
+	float: left;
+	 border-radius:10px; /* round corners */
+
+}
+.informacionTP img {
+	border-radius:10px; /* round corners */
+	margin:5px;
+	float:left;
+}
+.grid-div {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+  overflow:none;
+}
+.grid-message{
+padding:20px;
+	padding-bottom:20px;
+}
+.phoneDiv, .cardSelector{
+	margin-top:70px;
+}
+.twoOptions{
+		padding:20px;
+		background-color: #3b5898;
+		padding-top: 5em;
+		padding-bottom: 5em;
+}
+.informationForm{
+	width:100%;
+}
+input, select, textarea {
+	padding: 0, 12px;
+	width:90%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+
+  .informationTP input {
+	width:90%;
+  }
+.smallImage{
+	max-width: 70px;
+	background-color:white;
+
+}
+.formHeader{
+	background-color:rgb(172, 171, 171);
+	width:97%;
+	border-radius:10px; /* round corners */
+	padding: 0.3em;
+}
+.metaHeader{
+	float: left;
+}
+
+.formHeader img{
+	border-radius:10px; /* round corners */
+	float: left;
+}
+.blueP{
+color:darkblue;
+}
+.whiteP{
+color:white;
+}
+.card {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);
+	border-radius: 10px;
+	transition: 0.3s;
+	color:white;
+	margin-bottom:10px;
+	width:65%;
+}
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+	box-shadow: 2px 2px 2px 0 white;
+}
+  
+  /* Add some padding inside the card container */
+.cardContainer {
+	padding: 10px;
+	border-radius: 6px;
+
+}
+
+.grid-div:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+	border: 1px solid rgb(36, 3, 88);
+}
+.registerOrder{
+	background-color: #6f93f7;
+}
+
+.justOrder{
+	background-color: #112545;
+}
+
+body{
+	font-family: 'Balsamiq Sans', cursive;
+}
+.footer{
+padding:20px;
+padding-bottom:5px;
+background-color: #000000;
+color:white;
+}
+.header-top{
+padding:1em;
+color: white;
+font-weight: bold;
+background-color:#112545;
+/* other color that hasnt been used #aed3ff */
+}
+.fitlineLogo{
+	position: relative;
+	left: 13px;
+	top:-90px;
+	max-width: 70px;
+}
+#countryId{
+	width:100%;
+}
+.pmLogo{
+	position: relative;
+	left: 18%;
+	top:25px;
+	max-width: 180px;
+}
+.vectorPM img{
+	max-width: 300px;
+	padding:10px;
+}
+
+
+
+/* Credit Card */
+.pagoTP {
+    width: 360px;
+    height: 400px;
+    margin: 60px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0 rgba(0,0,0,.10);
+}
+.aboutPM{
+	width:100%;
+	margin:0;
+	/* background-image: linear-gradient(to right, rgba(255,0,0,0),#2387af); */
+	background-color: #6f93f7;
+}
+
+.vectorPM{
+
+}
+
+
+.header-bottom-top{
+	  background-image: linear-gradient(to right, rgba(255,0,0,0),#d9eaff);
+
+}
+
+
+
+.firstPurchase{
+/* /* width:100%; */
+width:30em;
+border: 2px solid rgb(77, 31, 150);
+background-color: white;
+color:rgb(77, 31, 150);
+padding:1em;
+margin:1em;
+}
+
+.orderContent{
+
+}
+.orderPrice{
+
+}
+.xsmallImage{
+width:7em;
+float:left;
+}
+
+.redTitle{
+	font-size: 2em;
+	color: red;
+	float:left;
+}
+.redSmTitle{
+	font-size: 1em;
+	color: red;
+	float:left;
+	padding-left:1em;
+}
+.priceP{
+	float: left;
+}
+#autoshipContainer{
+	width:100%;
+	margin:0;
+	background-color:#ccc;
+	padding:20px;
+
+}
+.firstPurchase{
+	border-radius: 10px;
+	
+}
+
+body{
+	width: 100%;
+}
+.cardAutoship{
+	margin-top:2em;
+	border: 1px solid rgb(36, 3, 88);
+	background-color:rgb(205, 218, 214);
+	border-radius: 10px;
+	padding:1em;
+	width:50%;
+
+}
+
+.clicker{
+	border-radius: 10px;
+	background-color:rgb(205, 218, 214);
+	padding:.3em;
+	width:5em;
+	margin-top:2em;
+	border: 1px solid rgb(36, 3, 88);
+}
+
+@media (max-width: 250px) {
+
+  }
+  @media (max-width: 350px) {
+
+  }
+@media (max-width: 480px) {
+
+  }
+
+  @media (max-width: 768px) {
+	.firstPurchase{
+		width:auto;
+
+	}
+
+  }
+  @media (max-width: 480px) {
+
+  }
+  @media (max-width: 1024px) {
+
+  }
+  @media (max-width: 1300px) {
+
+  }
