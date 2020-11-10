@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PM-International || Registrate y haz tu pedido</title>
+    <script src="https://kit.fontawesome.com/0ebb0d6a8d.js" crossorigin="anonymous"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="css/registroLatam.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Passion+One:400,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <!--//fonts-->
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <div class="header-top">
+            <div class="container">
+                <!-- <p class="header-para">Inscreva-se agora, sites limitados no webinar de Rivaldo</p>
+				<div class="clearfix"> </div> -->
+
+                <p class="header-para">Registrate ahora o haz tu primer pedido en tu pais, haciendo click en la bandera
+                    que corresponde</p>
+                <div class="clearfix"> </div>
+
+
+                <!-- <ul class="sign">
+					<li ><a href="signin.html" >SIGN IN</a></li>
+					<li><a href="#" ><span > </span></a></li>			
+				</ul> -->
+            </div>
+        </div>
+        <div class="header-bottom-top">
+            <img class="fitlineLogo" src="images/fitlineLogo_preview_rev_1.png" />
+            <img class="pmLogo" src="images/pmInternational.png" />
+            <div id="grid" class="grid">
+                <img id="bolivia" class="grid-div" src="images/bolivia-flag.png" />
+
+                <img id="colombia" class="grid-div" src="images/colombia-flag.png" />
+                <img id="costarica" class="grid-div" src="images/costarica-flag.png" />
+                <img id="ecuador" class="grid-div" src="images/ecuador-flag.png" />
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+
+    <div id="twoOptions" class="twoOptions">
+        <div class="registerOrder card" id="form1">
+            <div class="cardContainer">
+                <i class="fas fa-cash-register"></i>
+                <p>Quiero registrarme y hacer mi primer pedido</p>
+            </div>
+        </div>
+        <div class="justOrder card" id="form2">
+            <div class="cardContainer">
+                <i class="fas fa-user-plus"></i>
+                <p>Ya estoy registrado/a, quiero hacer un pedido</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="aboutPM" class="aboutPM">
+        <div class="vectorPM">
+            <img class="img-responsive" src="images/What-is-Jacobs-Well-4_preview_rev_1.png" />
+        </div>
+        <div class="grid-message">
+            <h2>Si PM Int. no ha llegado a tu pais todavia,</h2>
+            <h3> envianos un mensaje y te mantendremos informado de cuando se
+                abran nuevos mercados en latinoamerica.</h3>
+            <p></p>
+            <div class="missingCountryForm">
+                <form>
+                    <label for="fname">Nombre</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Pais:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <input class="clicker" type="submit" value="Enviar">
+                    <input class="clicker" type="reset">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="formTP" class="informacionTP " style="display: block;">
+        <div class="formHeader">
+            <div class="metaHeader">
+                <img class="smallImage" src="images/pmSmall.png">
+                <p class="whiteP">PM-International AG</p>
+                <p class="blueP">Solicitud de Distribuidor</p>
+            </div>
+        </div>
+        <br>
+        <form>
+            <div class="informationForm">
+                <h2>Informacion</h2>
+                <label for="fname">Nombre</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+
+                <label for="date">Fecha de Nacimiento:</label><br>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="street">Calle/Numero</label><br>
+                <input type="text" id="dob" name="dob"><br>
+
+                <label type="zipcode">Codigo Postal:</label><br>
+                <input type="text" id="zipcode" name="zipcode"><br>
+
+                <label type="city">Ciudad/Poblacion:</label><br>
+                <input type="text" id="city" name="ciudad"><br>
+            </div>
+            <div class="phoneDiv">
+                <label for="phone">Telefono:</label><br>
+                <input type="number" id="phone" name="phone"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <div id="countryId">
+
+                </div>
+
+                <label for="place">Lugar y fecha:</label><br>
+                <input type="text" id="place" name="place"><br>
+
+
+                <input type="checkbox" id="registroCheck" name="registerCheck">Quiero registrarme como un TeamPartner de
+                PM
+                Int.</input>
+                <br><br>
+
+                <label for="place">Nombre del patrocinador:</label><br>
+                <input type="text" id="place" name="place"><br>
+
+                <label for="place">Numero de asociado del patrocinador:</label><br>
+                <input type="text" id="place" name="place"><br>
+                <input type="checkbox" id="registroCheck" name="registerCheck"><br>Esta persona le ha dado permiso a
+                registrarse
+                en su equipo.</input>
+                <br>
+            </div>
+            <div class="cardSelector">
+
+                <div class="formHeader">
+                    <img class="smallImage" src="images/pmSmall.png">
+                    <p class="whiteP">Pedido Inicial</p>
+                </div>
+
+                <div id="firstOrder">
+                </div>
+
+                <select id="card" name="card">
+                    <option value="typeOne">MasterCard</option>
+                    <option value="typeTwo">Visa</option>
+                </select><br><br>
+                <label for="fname">Titular:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <!-- <div class="form-body"> -->
+                <!-- Card Number -->
+
+                <div>
+
+                    <label for="fname">Numero de Tarjeta:</label><br>
+                    <input type="text" class="card-number" placeholder="Numero de tarjeta">
+
+                    <!-- Date Field -->
+                    <div class="date-field">
+                        <div class="month">
+                            <select name="Month">
+                                <option value="enero">enero</option>
+                                <option value="febrero">febrero</option>
+                                <option value="marzo">marzo</option>
+                                <option value="abril">abril</option>
+                                <option value="mayo">mayo</option>
+                                <option value="junio">junio</option>
+                                <option value="julio">julio</option>
+                                <option value="agosto">agosto</option>
+                                <option value="septiembre">septiembre</option>
+                                <option value="octubre">octubre</option>
+                                <option value="noviembre">noviembre</option>
+                                <option value="diciembre">diciembre</option>
+                            </select>
+                        </div>
+                        <div class="year">
+                            <select name="Year">
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Card Verification Field -->
+                    <div class="cvv-input">
+                        <input type="text" placeholder="CVV">
+                    </div>
+                    <div class="cvv-details">
+                    </div><br><br>
+                    <button class="clicker" type="submit" class="proceed-btn">Pagar y finalizar</button>
+                    <!-- Buttons -->
+                </div>
+            </div>
+    </div>
+    </form>
+
+    </div>
+    <!-- </div> -->
+    <!--content-->
+    <!--footer-->
+    <div id="autoshipContainer" style="display:none;">
+        <div class="formHeader">
+            <img class="smallImage" src="images/pmSmall.png">
+            <p class="whiteP">PM-International AG</p>
+            <p class="blueP">Envio Automatico</p>
+
+        </div>
+        <form>
+            <div id="autoship" class="autoShip">
+
+            </div>
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">Apellido:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="street">Calle/Numero</label><br>
+            <input type="text" id="dob" name="dob"><br>
+
+            <label type="zipcode">Codigo Postal:</label><br>
+            <input type="text" id="zipcode" name="zipcode"><br>
+
+            <label type="city">Ciudad/Poblacion:</label><br>
+            <input type="text" id="city" name="ciudad"><br>
+
+            <label for="phone">Telefono:</label><br>
+            <input type="number" id="phone" name="phone"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="email">Numero de TeamPartner:</label><br>
+            <input type="email" id="email" name="email"><br>
+
+            <input type="checkbox" id="registroCheck" name="registerCheck"><br>Confirmo que quiero inscribirme en Envio Automatico.</input>
+            <br><br>
+            <!-- <div class="form-body"> -->
+            <!-- Card Number -->
+            <h2 class="blueP">Metodo de pago</h2>
+
+            <div class="cardAutoship">
+                <select id="card" name="card">
+                    <option value="typeOne">MasterCard</option>
+                    <option value="typeTwo">Visa</option>
+                </select><br><br>
+                <label for="fname">Titular:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="fname">Numero de Tarjeta:</label><br>
+                <input type="text" class="card-number" placeholder="Numero de tarjeta">
+
+                <!-- Date Field -->
+                <div class="date-field">
+                    <div class="month">
+                        <select name="Month">
+                            <option value="enero">enero</option>
+                            <option value="febrero">febrero</option>
+                            <option value="marzo">marzo</option>
+                            <option value="abril">abril</option>
+                            <option value="mayo">mayo</option>
+                            <option value="junio">junio</option>
+                            <option value="julio">julio</option>
+                            <option value="agosto">agosto</option>
+                            <option value="septiembre">septiembre</option>
+                            <option value="octubre">octubre</option>
+                            <option value="noviembre">noviembre</option>
+                            <option value="diciembre">diciembre</option>
+                        </select>
+                    </div>
+                    <div class="year">
+                        <select name="Year">
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Card Verification Field -->
+                <div class="cvv-input">
+                    <input type="text" placeholder="CVV">
+                </div>
+                <div class="cvv-details">
+                </div><br>
+                <button type="submit" class="proceed-btn">continuar</button>
+                <!-- Buttons -->
+            </div>
+        </form>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright 2020 BBGlobalsolutions- All rights reserved</p>
+        <!-- <p>Image by <a
+                href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=35364">Clker-Free-Vector-Images</a>
+            from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=35364">Pixabay</a>
+        </p>
+        <p>Image by <a
+                href="https://pixabay.com/users/openclipart-vectors-30363/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=162283">OpenClipart-Vectors</a>
+            from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=162283">Pixabay</a>
+        </p>
+        <p>Image by <a
+                href="https://pixabay.com/users/mayns82-1557667/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1040572">Michael
+                Christen</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1040572">Pixabay</a>
+        </p>
+        <p>Image by <a
+                href="https://pixabay.com/users/mayns82-1557667/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1040536">Michael
+                Christen</a> from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1040536">Pixabay</a>
+        </p> -->
+    </div>
+</body>
+<script src="/js/registroLatam.js"></script>
+
+</html>
